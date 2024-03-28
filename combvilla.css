@@ -1,0 +1,154 @@
+
+
+.parent1 {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    
+}
+
+.child1 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0%;
+}
+
+.parent1 h1 {
+    color: black;
+  
+}
+
+* {
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width:  max-content;
+    height: auto;
+    position: relative;
+}
+
+.container1 img1 {
+    width: 100%;
+    height: 50%;
+}
+
+.container1 .text1 {
+   position: absolute;
+    color: white;
+    left: 10px;
+    top: 50%;
+}
+.head1 .text1{
+   position: absolute;
+    color: white;
+    left: 10px;
+    top: 30%;
+}
+.img1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+body{background-color: white;}
+.container2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+    column-gap: 5px;
+   }
+   
+   img2 {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+   .text2 {
+     font-size: 20px;
+     font-family:"Ariel";
+   }
+    .full{
+      text-decoration: underline;
+    }
+    .parent2 {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    }
+    .child2 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    }
+
+    .div12 {
+        text-decoration: none;
+    }
+    .text2 h4{
+      color: orangered;
+    }
+   .img2{
+    bottom-image{position: absolute; bottom: 0;}
+    size: 20px;
+   }
+   .img2{
+    display: flex;
+    flex-direction: column;
+   }
+   .imagea{
+    width: 20px;
+    height: 20px;
+   }
+   .word2{
+    border: 2px solid coral;
+   }
+   /* .home .imageb{
+    display: flex;
+    justify-content: end;
+   }
+   .home .imagec{
+    display: flex;
+    justify-content: end;
+   } */
+  @media only screen and (min-width:768px){
+    .child2{
+      display: flex;
+      flex-direction: row;
+      font-size: 15px;
+    }
+    .word2{
+      text-decoration: underline;
+    }
+    .child1 {
+           display: flex;
+           flex-direction: row;
+         
+    }
+    .child1 a{
+      padding: 10px 20px;
+      text-decoration: none;
+
+     }
+     .child1 .block{
+      display: block;
+      width: 10px;
+      height: 10px;
+      margin: 10px;
+     }
+     .container1 img{
+      width: 20px;
+     }
+    .container2 {
+      display: flex;
+      flex-direction: row;
+    }
+     
+  }
+ 
+    
